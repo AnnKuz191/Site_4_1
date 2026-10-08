@@ -66,7 +66,7 @@ h1, h2, h3, .logo {
 /* Круглые кнопки в шапке */
 .nav-buttons {
   display: flex;
-  gap: 0.8rem;                       /* ← чуть плотнее, чтобы 4 кнопки помещались */
+  gap: 0.8rem;                       
 }
 
 .nav-btn {
@@ -223,13 +223,13 @@ h1, h2, h3, .logo {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   gap: 3rem;
-  align-items: stretch;               /* ← фото растягивается по высоте текста */
+  align-items: stretch;               
 }
 
 .profile-photo {
   position: relative;
-  height: 100%;                       /* ← на всю высоту колонки */
-  min-height: 420px;                  /* ← подстраховка */
+  height: 100%;                       
+  min-height: 420px;                 
   border-radius: 1rem;
   overflow: hidden;
   background: linear-gradient(160deg, #1a1a24, #0f0f16);
@@ -383,10 +383,10 @@ h1, h2, h3, .logo {
 
 .actress-details li {
   display: flex;
-  align-items: baseline;              /* ← выравнивание по базовой линии */
+  align-items: baseline;             
   gap: 0.5rem;
   font-size: 0.9rem;
-  line-height: 1.2;                   /* ← единая высота строки */
+  line-height: 1.2;                  
 }
 
 .actress-label {
@@ -395,7 +395,7 @@ h1, h2, h3, .logo {
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   font-weight: 600;
-  line-height: 1.2;                   /* ← то же самое */
+  line-height: 1.2;                   
 }
 
 .actress-bio {
@@ -503,7 +503,6 @@ h1, h2, h3, .logo {
 
 /* ================= АДАПТИВНОСТЬ ================= */
 @media (max-width: 900px) {
-  /* На планшетах кнопки могут стать круглыми с иконками без текста */
   .nav-btn {
     padding: 0 14px;
   }
